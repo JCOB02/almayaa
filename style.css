@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'Poppins', sans-serif;
+  font-family: "Noto Sans", sans-serif;
     color: #fff;
     font-size: 20px;
 }
@@ -9,6 +9,10 @@
 body {
     background-color: #000000;
     overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fondo.png);
+    background-attachment: fixed;
 }
 
 
@@ -17,9 +21,21 @@ body {
     max-width: 100%;
 }
 
+.rochester {
+  font-family: "Rochester", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .span-esl {
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
+}
+
+
+.esl-almaya h3 {
+
+  font-size: 2rem;
 }
 
 .txt-dorado {
@@ -28,6 +44,10 @@ body {
   radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
   background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.desc-sem{
+  font-size: 2.9rem;
 }
 
 .btn-1 {
@@ -43,16 +63,31 @@ body {
 
 .btn-1 a {
   text-decoration: none;
-  /* border: 2px solid #ffffff; */
   padding: 15px;
-  background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
-  radial-gradient(ellipse farthest-corner at left top, #fff347 0%, #e3e372 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+  border-radius: 50px;
+  border: solid #fff 5px;
+  background: radial-gradient(ellipse farthest-corner at right bottom, #f8ce14 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+  radial-gradient(ellipse farthest-corner at left top, #d0b82d 0%, #c2af33 8%, #efb843 25%, #5d4a1f 62.5%, #5d4a1f 100%);
   text-transform: uppercase;
   letter-spacing: 2px;
   position: relative;
   display: inline-block;
   transition: all .7s;
+  animation: color infinite;
 }
+/* 
+.btn-1 a {
+  text-decoration: none;
+  padding: 15px;
+  border: 2px solid #ffffff;
+  border-radius: 6px;
+  background: goldenrod;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  position: relative;
+  display: inline-block;
+  transition: all .7s;
+} */
 
 .btn-1 a:hover{
   scale: 1.05;
@@ -63,8 +98,6 @@ body {
     font-size: 2.5rem;
     z-index: 3;
   }
-
-
 
 .bg-p{
   background-color: #ff950000;
@@ -78,7 +111,7 @@ body {
 }
 
 .sect-info{
-  background-color: #fff;
+  background-color: #f7eddaf8;
   padding: 0 35px 0 35px;
 }
 
@@ -97,11 +130,11 @@ body {
 
 .info-seminario h3{
   font-weight: bold;
-  font-size: 2.2rem;
+  font-size: 2.8rem;
 }
 
 .bg-p:hover {
-  transform: scale(1.1);
+  transform: scale(1.03);
 }
 
 .reveal{
@@ -115,7 +148,6 @@ body {
   transform: translateY(0);
   opacity: 1;
 }
-
 
 
 .hist-cont p {
@@ -158,7 +190,7 @@ body {
     font-size: 1.8rem;
   }
   .span-esl {
-    font-size: 2rem;
+    font-size: 3.5rem;
   }
 
   .btn-1 a span {
